@@ -1,0 +1,33 @@
+<! Doctype HTML>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Translator</title>
+</head>
+<body>
+<div class="container">
+
+    <section class="wrapper">
+    <h1 class="title">Translator</h1>
+    <form enctype="multipart/form-data" class="form">
+        <div class="inputs">
+            <label for="text">Text to translate : </label>
+            <textarea name="text" id="text" cols="30" rows="10"></textarea>
+        </div>
+        <button class="button" type="submit">Generate</button>
+    </form>
+        </section>
+
+    <div class="element">
+        <h4 class="inputs-title">Generated text: </h4><br>
+            <div class="generated-text">
+                <p class="generated-text-output" contenteditable="true"></p>
+            </div>
+    </div>
+</div>
+
+<script src="app.js"></script>
+</body>
+
+</html>
